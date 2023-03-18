@@ -1,4 +1,7 @@
 <?php
-    $conn = new mysqli("localhost", "root", "", "wsb_k26");
+    $conn = new mysqli("localhost", "root", "", "wsb");
+
+    //echo "db";
+    //echo $conn->connect_errno;
 
 ?>
